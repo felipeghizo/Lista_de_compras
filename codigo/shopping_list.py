@@ -10,7 +10,7 @@ class ShoppingListApp:
         self.root.title("Lista de Compras")
 
         # Carrega a imagem e cria um objeto PhotoImage
-        self.image = Image.open("Lista_de_compras/Template_3.jpg")  # Substitua pelo caminho da sua imagem
+        self.image = Image.open("Template_3.jpg")  # Substitua pelo caminho da sua imagem
         self.photo = ImageTk.PhotoImage(self.image)
 
         # Cria o widget Listbox para exibir a lista de itens
